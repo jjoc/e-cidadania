@@ -41,7 +41,8 @@ If you don't want to create an isolated development environment:
 
 
 [INSTALLATION]
-
+(X) sudo apt-get update
+(X) sudo apt-get upgrade
 (X) sudo pip install -r requirements.txt
 
 * Configure *src/e_cidadania/settings/production.py* to you desire.
