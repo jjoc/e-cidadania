@@ -36,7 +36,8 @@ If you don't want to create an isolated development environment:
 (X) sudo easy_install pip
 
 [Optional]
-(X) sudo pip install virtualenv
+( ) sudo pip install virtualenv
+(X) git clone https://github.com/jjoc/e-cidadania
 
 
 [INSTALLATION]
