@@ -1,8 +1,8 @@
 e-cidadania
 ===========
 
-.. image:: https://badge.fury.io/gh/cidadania%2Fe-cidadania.png
-    :target: http://badge.fury.io/gh/cidadania%2Fe-cidadania
+.. image:: https://badge.fury.io/gh/jjoc%2Fe-cidadania.png
+    :target: http://badge.fury.io/gh/jjoc%2Fe-cidadania
 .. image:: http://i.imgur.com/BeE14Bl.png
     :target: http://python.org
 .. image:: http://i.imgur.com/5ldxDJl.png
