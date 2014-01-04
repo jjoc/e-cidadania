@@ -1,20 +1,6 @@
 e-cidadania
 ===========
 
-.. image:: https://badge.fury.io/gh/jjoc%2Fe-cidadania.png
-    :target: http://badge.fury.io/gh/jjoc%2Fe-cidadania
-.. image:: http://i.imgur.com/BeE14Bl.png
-    :target: http://python.org
-.. image:: http://i.imgur.com/5ldxDJl.png
-    :target: http://djangoproject.com
-
-e-cidadania is a project to develop an open source application for citizen
-participation, which can be used for debates, proposals, trusted voting,
-usable by associations, companies and administrations.
-
-The e-cidadania objective is to provide a way to make a full participation
-process on internet, or even use it as a complement to in person participative
-processes.
 
 Installation
 ------------
