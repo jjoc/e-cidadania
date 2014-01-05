@@ -9,6 +9,7 @@ Furthermore, e-cidadania has been developed on python 2.7
 (X) sudo apt-get upgrade
 
 (?) sudo apt-get install mysql-server mysql-client
+(X) sudo apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
 
 
 
@@ -34,10 +35,9 @@ If you don't want to create an isolated development environment:
 (X) sudo apt-get install supervisor
 (X) sudo apt-get install python-setuptools
 
-(X) sudo apt-get install build-essential python-dev
-(X) sudo apt-get install libxml2-dev libxslt1-dev 
-(X) sudo apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
+
 (X) sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
+(X) sudo apt-get install build-essential python-dev libxml2-dev libxslt1-dev
 (X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
 
 (?) sudo pip install -U setuptools 
