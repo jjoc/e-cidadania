@@ -31,6 +31,14 @@ If you don't want to create an isolated development environment:
 (X) sudo apt-get install supervisor
 (X) sudo apt-get install uwsgi
 
+(X) sudo apt-get install uwsgi-plugin-python
+(X) sudo apt-get install nginx-full uwsgi
+
+[OptionalDevs]
+
+(?) sudo apt-get install aptitude
+(?) sudo apt-get install htop
+
 [Optional]
 ( ) sudo pip install virtualenv
 (X) git clone https://github.com/jjoc/e-cidadania
