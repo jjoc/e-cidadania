@@ -34,7 +34,12 @@ If you don't want to create an isolated development environment:
 [Optional]
 ( ) sudo pip install virtualenv
 (X) git clone https://github.com/jjoc/e-cidadania
+(X) ln -s "/home/citizen/deploy/e-cidadania/src/e_cidadania/settings" config
 
+[StartING Nginx]
+__init__.py  debug = false
+/etc/nginx UPLOAD nginx.conf (drop5.org)
+(modifiK IP, rutas, etc.)
 
 [INSTALLATION]
 (X) sudo apt-get update
