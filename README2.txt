@@ -27,6 +27,9 @@ If you don't want to create an isolated development environment:
   e-cidadania, you can do it with pip::
   
 [PreRequisites]
+
+(?) sudo apt-get install pip
+
 (X) sudo apt-get install git-core
 (X) sudo apt-get install supervisor
 (X) sudo apt-get install python-setuptools
@@ -35,9 +38,8 @@ If you don't want to create an isolated development environment:
 (X) sudo apt-get install libxml2-dev libxslt1-dev 
 (X) sudo apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
 (X) sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
-(X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev build-essential
+(X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
 
-(?) sudo easy_install pip
 (?) sudo pip install -U setuptools 
 
 (X) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
