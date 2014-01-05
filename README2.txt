@@ -57,19 +57,21 @@ __init__.py  debug = false
 * Set *src/e_cidadania/settings/__init__.py* DEBUG to False
 * Generate the database with "SRC" ::
 
-    python manage.py syncdb
+(X) python manage.py syncdb
 
 * Make all the south migrations::
 
-    pytohn manage.py migrate
+(X) pytohn manage.py migrate
 
 * Copy all the static files::
 
-    python manage.py collectstatic
+(?) python manage.py collectstatic
 
 * Run the development server
 
-    python manage.py runserver
+(?) python manage.py
+(X) python manage.py runserver
+(?) python manage.py runserver 1.2.3.4:8000 (where 1.2.3.4 is your IP Server)
 
 **e-cidadania currently supports python 2.7.X. The work for porting to python 3 is on the "python3" branch.**
 
