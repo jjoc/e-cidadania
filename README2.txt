@@ -29,7 +29,8 @@ If you don't want to create an isolated development environment:
 (X) sudo pip install -U setuptools 
 (X) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
 (X) sudo pip install uwsgi
-(X) sudo easy_install supervisor
+(X) sudo apt-get install supervisor
+(X) sudo apt-get install uwsgi
 
 [Optional]
 ( ) sudo pip install virtualenv
@@ -40,6 +41,13 @@ If you don't want to create an isolated development environment:
 __init__.py  debug = false
 /etc/nginx UPLOAD nginx.conf (drop5.org)
 (modifiK IP, rutas, etc.)
+
+[StartING Supervisor]
+/etc/supervisor UPLOAD ecidadania.conf (drop5.org)
+(modifiK IP, rutas, etc.)
+
+
+
 
 [INSTALLATION]
 (X) sudo apt-get update
