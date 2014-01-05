@@ -1,9 +1,12 @@
 e-cidadania
 ===========
 
-On Ubuntu 12.04...
+Installing dependencies in OS Ubuntu 12.04 (32b)
+Ubuntu 12.04 comes with python v 2.7.3 by default.
+Furthermore, e-cidadania has been developed on python 2.7
 
-
+(X) sudo apt-get update
+(X) sudo apt-get upgrade
 
 (?) sudo apt-get install mysql-server mysql-client
 
@@ -13,9 +16,9 @@ On Ubuntu 12.04...
 Installation
 ------------
 
-Since e-cidadania 0.1.5 we include an automated buildout system. If you want to
-install it to do testing or development you should see
-`these instructions <https://github.com/cidadania/e-cidadania/blob/gsoc2012/docs/en/dev/environment.rst>`_
+Since e-cidadania 0.1.5 we include an automated buildout system. 
+If you want to install it to do testing or development you should see these instructions:
+"<https://github.com/cidadania/e-cidadania/blob/gsoc2012/docs/en/dev/environment.rst>"
 
 If you don't want to create an isolated development environment:
 
@@ -25,22 +28,22 @@ If you don't want to create an isolated development environment:
   
 [PreRequisites]
 (X) sudo apt-get install git-core
-(X) sudo apt-get update
-(X) sudo apt-get install nginx
+(X) sudo apt-get install supervisor
+(X) sudo apt-get install python-setuptools
+
 (X) sudo apt-get install build-essential python-dev
-(X) sudo apt-get install libxml2-dev
-(X) sudo apt-get install libxslt1-dev 
+(X) sudo apt-get install libxml2-dev libxslt1-dev 
+(X) sudo apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
 (X) sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
 (X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev build-essential
-(X) sudo apt-get install python-setuptools
-(X) sudo easy_install pip
-(X) sudo pip install -U setuptools 
-(X) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
-(X) sudo apt-get install supervisor
-(X) sudo apt-get install uwsgi
 
-(X) sudo apt-get install uwsgi-plugin-python
-(X) sudo apt-get install nginx-full uwsgi
+(?) sudo easy_install pip
+(?) sudo pip install -U setuptools 
+
+(X) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
+
+
+
 
 [OptionalDevs]
 
