@@ -28,7 +28,6 @@ If you don't want to create an isolated development environment:
 (X) sudo easy_install pip
 (X) sudo pip install -U setuptools 
 (X) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
-(X) sudo pip install uwsgi
 (X) sudo apt-get install supervisor
 (X) sudo apt-get install uwsgi
 
