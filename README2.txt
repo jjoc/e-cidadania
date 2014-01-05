@@ -55,7 +55,7 @@ __init__.py  debug = false
 
 * Configure *src/e_cidadania/settings/production.py* to you desire.
 * Set *src/e_cidadania/settings/__init__.py* DEBUG to False
-* Generate the database with::
+* Generate the database with "SRC" ::
 
     python manage.py syncdb
 
