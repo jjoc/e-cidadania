@@ -1,6 +1,14 @@
 e-cidadania
 ===========
 
+On Ubuntu 12.04...
+
+
+
+(?) sudo apt-get install mysql-server mysql-client
+
+
+
 
 Installation
 ------------
