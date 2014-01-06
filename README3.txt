@@ -71,8 +71,8 @@ If you want to install it to do testing or development you should see these inst
 [Esenciales]
 
 (X) sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
-(X) sudo apt-get install build-essential libxml2-dev libxslt1-dev
-(X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
+(X) sudo apt-get install build-essential libxml2-dev libxslt1-dev libpq-dev libssl-dev
+(X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libxslt-dev
 
 
 [(4FIRST2...Optional OR Not:)]
@@ -165,6 +165,12 @@ command=/usr/bin/uwsgi_python27 --socket=/tmp/ecidadania.sock
 
 (X) sudo apt-get install nginx
 (X) sudo nginx -t                           (Data::Running...?:)
+
+[NGINX CONFIG] <APP>
+
+
+
+
 
 ******************************************[/ALTERNATIVA EXCLUYENTE]*******************************************
 
