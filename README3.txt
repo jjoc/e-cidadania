@@ -33,7 +33,7 @@ Installation
 
 [PreRequisites]
 
-(?) sudo apt-get install pip
+(?) sudo easy_install pip
 (?) sudo pip install MySQL-Python
 (?) sudo pip install -U setuptools
 
