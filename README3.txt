@@ -5,6 +5,18 @@ Installing dependencies in OS Ubuntu 12.04 (32b)
 Ubuntu 12.04 comes with python v 2.7.3 by default.
 Furthermore, e-cidadania has been developed on python 2.7
 
+Installation
+===============
+
+[Optional Security]
+
+(X) adduser -m <userName>
+(X) adduser <userName> sudo
+(X) visudo 
+          # User privilege specification
+            <userName> ALL=(ALL:ALL) ALL
+            
+
 [4FIRST]
 
 (X) sudo apt-get update
@@ -30,20 +42,6 @@ Furthermore, e-cidadania has been developed on python 2.7
 (X) sudo apt-get install aptitude
 
 
-
-Installation
-===============
-
-[Optional Security]
-
-(X) adduser -m <userName>
-(X) adduser <userName> sudo
-(X) visudo 
-          # User privilege specification
-            <userName> ALL=(ALL:ALL) ALL
-
-
-  
 [PreRequisites]
 
 (?) sudo apt-get install pip
