@@ -8,6 +8,19 @@ Furthermore, e-cidadania has been developed on python 2.7
 Installation
 ===============
 
+
+[4FIRST RequeriMents]
+
+(X) apt-get update
+(X) apt-get upgrade
+
+(X) apt-get install build-essential python python-dev
+
+(X) apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
+(?) apt-get install mysql-server mysql-client libmysqlclient-dev
+(X) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
+
+
 [Optional Security]
 
 (X) adduser <userName>
@@ -16,17 +29,7 @@ Installation
           # User privilege specification
             <userName> ALL=(ALL:ALL) ALL
             
-
-[4FIRST RequeriMents]
-
-(X) sudo apt-get update
-(X) sudo apt-get upgrade
-
-(X) sudo apt-get install build-essential python python-dev
-
-(X) sudo apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
-(?) sudo apt-get install mysql-server mysql-client libmysqlclient-dev
-(X) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
+            
 
 [OR:: UWSGI.pip.IF]
 (X) sudo pip install http://projects.unbit.it/downloads/uwsgi-lts.tar.gz
