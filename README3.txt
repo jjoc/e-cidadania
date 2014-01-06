@@ -99,6 +99,8 @@ Installation
 
 ____________________________________________________________________________________________________
 
+user root root;
+
 worker_processes  10;
 
 error_log /var/log/nginx/error_log info;
