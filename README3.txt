@@ -48,11 +48,22 @@ Installation
 
 
 [OR:: UWSGI.pip.IF]
+
 (X) sudo pip install http://projects.unbit.it/downloads/uwsgi-lts.tar.gz
 
 *** uWSGI is ready, launch it with /usr/local/bin/uwsgi ***
 (*?*) sudo useradd -c 'uwsgi user' -g nginx --system \
 >     --no-create-home --disabled-login --disabled-password uwsgi
+
+************************************************************************
+***** citizen@ipirates:~$ sudo useradd -c 'citizen' -g nginx --system \
+***** > --no-create-home --disabled-login --disabled-password uwsgi
+***** useradd: group 'nginx' does not exist
+*************************************************************************
+
+
+
+[MySQL Status]
 
 (i) sudo netstat -tap | grep mysql (Data::Running...?:)
 (i) sudo service mysql start|stop|restart
