@@ -195,17 +195,108 @@ command=/usr/bin/uwsgi_python27 --socket=/tmp/ecidadania.sock
 (?) python manage.py runserver 1.2.3.4:8000 (where 1.2.3.4 is your IP Server)
 
 
+[HISTORYs]*********************************
+
+ROOT:
+    1  apt-get update
+    2  apt-get upgrade
+    3  sudo apt-get install git-core
+    4  sudo apt-get update
+    5  sudo apt-get install nginx
+    6  sudo apt-get install build-essential python-dev
+    7  sudo apt-get install libxslt1-dev
+    8  sudo apt-get update python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
+    9  sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
+   10  sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev build-essential
+   11  sudo apt-get install python-setuptools
+   12  sudo easy_install pip
+   13  sudo pip install uwsgi
+   14  sudo apt-get install python-setuptools
+   15  pip install -U setuptools
+   16  Wheel installs require setuptools >= 0.8 for dist-info support.
+   17  pip's wheel support requires setuptools >= 0.8 for dist-info support.
+   18  Storing debug log for failure in /root/.pip/pip.log
+   19  sudo pip install -U setuptools
+   20  wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
+   21  sudo pip install uwsgi
+
+CITIZEN:
+
+ 
+  192  cd etc/supervisor
+ 
+  194  sudo vim ecidadania.conf
+
+  205  sudo pip install -r requirements.txt
+
+  213  sudo vim /etc/supervisor/conf.d/ecidadania.conf
+
+  216  sudo vim /etc/supervisor/conf.d/ecidadania.conf
+ 
+  219  cd supervisor
+
+  221  sudo vim ecidadania.conf
+  
+  225  sudo vim nginx.conf
+  226  sudo service nginx reload
+  227  sudo supervisorctl
+  228  sudo service supervisor start
+
+  232  htop
+  233  sudo service mysql status
+ 
+  240  nginx -V | grep --color -o http_stub_status
+  241  vi nginx.conf
+  242  sudo service --status-all
+  243  sudo service mysql status
+  244  python manage.py
+
+  255  python manage.py
+  256  python manage.py syncdb
+  257  pytohn manage.py migrate
+  258  python manage.py migrate
+  259  python manage.py collectstatic
+  260  python manage.py runserver
+ 
+
+
+  266  vim production.py
+ 
+ 
+  289  sudo apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
+ 
+  297  supervisorctl
+  298  sudo service supervisor start
+  299  sudo service nginx status
+  300  sudo service mysql status
+  301  sudo service --status-all
+
+ 
+  324  vim setup.py
+  342  vim urls.py
+ 
+  378  find -name django
+  379  sudo find -name django
+  380  cd /usr/local/lib/python2.7/dist-packages/django
+
+  384  vim base.py
+
+  397  sudo vim __init__.py
+
+  401  sudo visudo
+
+
+[/HISTORYs]
+
+
 
 
 -----------
 Development
 -----------
 
-**We need developers! If you want to join us, send an email to info@ecidadania.org**
-
-Development and bugtracking is done through `code.ecidadania.org <http://code.ecidadania.org>`_
-
- * `IRC channels <http://webchat.freenode.net>`_ #ecidadania-dev and #ecidadania for e-cidadania.
+**We need developers! info@ecidadania.org ** http://code.ecidadania.org 
+**IRC channels <http://webchat.freenode.net>`_ #ecidadania-dev and #ecidadania for e-cidadania.
 
 Useful information
 ------------------
