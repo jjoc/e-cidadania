@@ -52,6 +52,7 @@ Installation
 
 *** uWSGI is ready, launch it with /usr/local/bin/uwsgi ***
 (*?*) sudo useradd -c 'uwsgi user' -g nginx --system \
+>     --no-create-home --disabled-login --disabled-password uwsgi
 
 (i) sudo netstat -tap | grep mysql (Data::Running...?:)
 (i) sudo service mysql start|stop|restart
