@@ -17,7 +17,7 @@ Installation
             <userName> ALL=(ALL:ALL) ALL
             
 
-[4FIRST]
+[4FIRST RequeriMents]
 
 (X) sudo apt-get update
 (X) sudo apt-get upgrade
