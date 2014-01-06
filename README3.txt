@@ -126,7 +126,7 @@ command=/usr/bin/uwsgi_python27 --socket=/tmp/ecidadania.sock
 
 
 
-***********[ALTERNATIVE Synapse Connector 4FIRST] SETUP:: Nginx, uWSGI, Python, Django Server [EXCLUYENTE]***********
+***********[ALTERNATIVE Synapse Connectot SETUP] Nginx, uWSGI, Python, Django Server [EXCLUYENTE]***********
 
 
 [Install uWSGI]
@@ -164,6 +164,7 @@ command=/usr/bin/uwsgi_python27 --socket=/tmp/ecidadania.sock
 *----------------------------------------------------------*
 
 (X) sudo apt-get install nginx
+(X) sudo nginx -t                           (Data::Running...?:)
 
 ******************************************[/ALTERNATIVA EXCLUYENTE]*******************************************
 
