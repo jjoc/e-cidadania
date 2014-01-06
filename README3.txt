@@ -49,7 +49,7 @@ Installation
 
 [OR:: UWSGI.pip.IF]
 
-(X) sudo pip install http://projects.unbit.it/downloads/uwsgi-lts.tar.gz
+(?) sudo pip install http://projects.unbit.it/downloads/uwsgi-lts.tar.gz
 
 *** uWSGI is ready, launch it with /usr/local/bin/uwsgi ***
 (*?*) sudo useradd -c 'uwsgi user' -g nginx --system \
@@ -71,6 +71,7 @@ Installation
 [Others Status]
 (i) sudo service uwsgi restart     (Data::Running...?:)
 (i) sudo service nginx restart     (Data::Running...?:)
+
 
 
 [OptionalDevs :: htop|aptitude]
@@ -98,7 +99,7 @@ Installation
 
 [(CONFIGs.DROP5.org)(nginx.conf)]
 
-(X) sudo wget ftp://drop5org@ftp.drop5.org/httpdocs/eCidadania/nginx_conf_prod_ecidadania
+(*) sudo wget ftp://drop5org@ftp.drop5.org/httpdocs/eCidadania/nginx_conf_prod_ecidadania
 (X)  * cp nginx.drop5.org >>> /etc/nginx >>> nginx.conf |i| vim locations |i| maps, google, skype...
 (*) NGINX.conf >>> http://pastebin.com/NSYFGM11
 
@@ -177,6 +178,8 @@ command=/usr/bin/uwsgi_python27 --socket=/tmp/ecidadania.sock
 *deb http://nginx.org/packages/ubuntu/ precise nginx
 *deb-src http://nginx.org/packages/ubuntu/ precise nginx
 *----------------------------------------------------------*
+
+
 
 (X) sudo apt-get install nginx
 (X) sudo nginx -t                           (Data::Running...?:)
