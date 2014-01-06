@@ -125,13 +125,14 @@ __init__.py  debug = false
 
 ------------------------------------------------------------------------------
 [program:ecidadania]
-user=USUARIO
+user=citizen
 command=/usr/bin/uwsgi_python27 --socket=/tmp/ecidadania.sock
                        --chmod-socket=666
-               (**)    --chdir=/directorio/de/codigo/fuente/src
+                       --chdir=/home/citizen/e-cidadania/src
                        --workers 5
-               (**)    --single-interpreter --enable-threads
-                       /directorio/a/archivo/wsgi.py
+                       --single-interpreter --enable-threads
+                       /home/citizen/e-cidadania/src/wsgi.py
+
 ------------------------------------------------------------------------------
 
 /etc/supervisor UPLOAD ecidadania.conf (drop5.org) (modifiK IP, rutas, etc.)
