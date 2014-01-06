@@ -68,6 +68,10 @@ Installation
 (i) sudo netstat -tap | grep mysql (Data::Running...?:)
 (i) sudo service mysql start|stop|restart
 
+[Others Status]
+(i) sudo service uwsgi restart     (Data::Running...?:)
+(i) sudo service nginx restart     (Data::Running...?:)
+
 
 [OptionalDevs :: htop|aptitude]
 
