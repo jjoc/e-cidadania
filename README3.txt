@@ -10,7 +10,7 @@ Installation
 
 [Optional Security]
 
-(X) adduser -m <userName>
+(X) adduser <userName>
 (X) adduser <userName> sudo
 (X) visudo 
           # User privilege specification
