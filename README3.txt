@@ -90,7 +90,7 @@ Installation
 [(4FIRST2...Optional OR Not:)]
 ( ) sudo pip install virtualenv virtualenvwrapper
 (X) git clone https://github.com/jjoc/e-cidadania (Ofc.Release?:)
-(X) ln -s "/home/citizen/deploy/e-cidadania/src/e_cidadania/settings" config
+(X) ln -s "/home/citizen/e-cidadania/src/e_cidadania/settings" config
 
 [(CONFIGs.DROP5.org)(nginx.conf)]
 
