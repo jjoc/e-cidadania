@@ -33,9 +33,8 @@ Installation
 
 [PreRequisites]
 
-(?) sudo easy_install pip
-(?) sudo pip install MySQL-Python
-(?) sudo pip install -U setuptools
+(X) sudo easy_install pip
+(X) sudo pip install -U setuptools
 
 (X) sudo apt-get install git-core
 (X) sudo apt-get install supervisor
