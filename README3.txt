@@ -32,13 +32,9 @@ Furthermore, e-cidadania has been developed on python 2.7
 
 
 Installation
-------------
+===============
 
-Since e-cidadania 0.1.5 we include an automated buildout system. 
-If you want to install it to do testing or development you should see these instructions:
-"<https://github.com/cidadania/e-cidadania/blob/gsoc2012/docs/en/dev/environment.rst>"
-
-[Minimal Security]
+[Optional Security]
 
 (X) adduser -m <userName>
 (X) adduser <userName> sudo
