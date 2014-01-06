@@ -71,6 +71,11 @@ Installation
 (i) sudo service uwsgi restart     (Data::Running...?:)
 (i) sudo service nginx restart     (Data::Running...?:)
 
+[iFerrors NGINX]
+
+(X) sudo fuser -k 80/tcp 
+(X) sudo /etc/init.d/nginx restart
+
 
 
 [OptionalDevs :: htop|aptitude]
