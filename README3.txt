@@ -29,21 +29,7 @@ Installation
           # User privilege specification
             <userName> ALL=(ALL:ALL) ALL
             
-            
-
-[OR:: UWSGI.pip.IF]
-(X) sudo pip install http://projects.unbit.it/downloads/uwsgi-lts.tar.gz
-(*?*) sudo useradd -c 'uwsgi user' -g nginx --system \
-
-(i) sudo netstat -tap | grep mysql (Data::Running...?:)
-(i) sudo service mysql start|stop|restart
-
-
-[OptionalDevs :: htop|aptitude]
-
-(X) sudo apt-get install htop
-(X) sudo apt-get install aptitude
-
+           
 
 [PreRequisites]
 
@@ -59,6 +45,21 @@ Installation
 (X) sudo apt-get build-dep python-imaging
 (X) sudo apt-get install libjpeg62 libjpeg62-dev
 (E) |i| You must put some 'source' URIs in your sources.list
+
+
+[OR:: UWSGI.pip.IF]
+(X) sudo pip install http://projects.unbit.it/downloads/uwsgi-lts.tar.gz
+(*?*) sudo useradd -c 'uwsgi user' -g nginx --system \
+
+(i) sudo netstat -tap | grep mysql (Data::Running...?:)
+(i) sudo service mysql start|stop|restart
+
+
+[OptionalDevs :: htop|aptitude]
+
+(X) sudo apt-get install htop
+(X) sudo apt-get install aptitude
+
 
 
 [OPTional] Aptitude 
