@@ -49,6 +49,8 @@ Installation
 
 [OR:: UWSGI.pip.IF]
 (X) sudo pip install http://projects.unbit.it/downloads/uwsgi-lts.tar.gz
+
+*** uWSGI is ready, launch it with /usr/local/bin/uwsgi ***
 (*?*) sudo useradd -c 'uwsgi user' -g nginx --system \
 
 (i) sudo netstat -tap | grep mysql (Data::Running...?:)
