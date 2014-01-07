@@ -124,11 +124,13 @@ __init__.py  debug = false
 [StartING Supervisor]
 
 (X) sudo apt-get install supervisor
-(X) sudo touch ecidadania.conf 
+(X) sudo touch ecidadania.conf
+*(X)sudo supervisorctl reread
+*(X)sudo supervisorctl update
 
 (i)  "contenido" ecidadania.conf /etc/supervisor/conf.d/  (Data::Running...?:)
 
-------------------------------------------------------------------------------
+***************************************************************
 [program:ecidadania]
 user=citizen
 command=/usr/bin/uwsgi_python27 --socket=/tmp/ecidadania.sock
@@ -138,23 +140,17 @@ command=/usr/bin/uwsgi_python27 --socket=/tmp/ecidadania.sock
                        --single-interpreter --enable-threads
                        /home/citizen/e-cidadania/src/wsgi.py
 
-------------------------------------------------------------------------------
-
-/etc/supervisor UPLOAD ecidadania.conf (drop5.org) (modifiK IP, rutas, etc.)
+***************************************************************
 
 
 
-***********[ALTERNATIVE Synapse Connectot SETUP] Nginx, uWSGI, Python, Django Server [EXCLUYENTE]***********
 
 
-[Install uWSGI]
 
-(X) sudo apt-get install uwsgi uwsgi-plugin-python
+-----------------------------------------------------------------------------------*
 (X) sudo useradd -c 'uwsgi user' -g nginx --system \
 [i] --no-create-home --disabled-login --disabled-password uwsgi
-
 [i] UPStart :: configuration file at /etc/init/uwsgi.conf ::
-
 -----------------------------------------------------------------------------------*
 1 description "uWSGI"
 2 start on runlevel [2345]
@@ -167,10 +163,7 @@ command=/usr/bin/uwsgi_python27 --socket=/tmp/ecidadania.sock
 9 --plugins python
 -----------------------------------------------------------------------------------*
 
-
-
 [Install Nginx(Latest Estable::AddKey]
-
 
 (X) sudo wget http://nginx.org/keys/nginx_signing.key
 (X) sudo apt-key add nginx_signing.key
@@ -181,21 +174,7 @@ command=/usr/bin/uwsgi_python27 --socket=/tmp/ecidadania.sock
 *deb-src http://nginx.org/packages/ubuntu/ precise nginx
 *----------------------------------------------------------*
 
-
-
-(X) sudo apt-get install nginx
-(X) sudo nginx -t                           (Data::Running...?:)
-
 [NGINX CONFIG] <APP>
-
-
-
-
-
-******************************************[/ALTERNATIVA EXCLUYENTE]*******************************************
-
-
-
 
 
 
@@ -246,25 +225,10 @@ ROOT:
 
 CITIZEN:
 
- 
-  192  cd etc/supervisor
- 
-  194  sudo vim ecidadania.conf
 
-  205  sudo pip install -r requirements.txt
-
-  213  sudo vim /etc/supervisor/conf.d/ecidadania.conf
-
-  216  sudo vim /etc/supervisor/conf.d/ecidadania.conf
- 
-  219  cd supervisor
-
-  221  sudo vim ecidadania.conf
   
   225  sudo vim nginx.conf
   226  sudo service nginx reload
-  227  sudo supervisorctl
-  228  sudo service supervisor start
 
   232  htop
   233  sudo service mysql status
@@ -285,11 +249,7 @@ CITIZEN:
 
 
   266  vim production.py
- 
- 
-  289  sudo apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
- 
-  297  supervisorctl
+
   298  sudo service supervisor start
   299  sudo service nginx status
   300  sudo service mysql status
@@ -306,8 +266,6 @@ CITIZEN:
   384  vim base.py
 
   397  sudo vim __init__.py
-
-  401  sudo visudo
 
 
 [/HISTORYs]
