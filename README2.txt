@@ -5,12 +5,10 @@ Installing dependencies in OS Ubuntu 12.04 (32b)
 Ubuntu 12.04 comes with python v 2.7.3 by default.
 Furthermore, e-cidadania has been developed on python 2.7
 
-(X) sudo apt-get update
-(X) sudo apt-get upgrade
 
-(X) sudo apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
-(?) sudo apt-get install mysql-server mysql-client libmysqlclient-dev
 
+*(X) sudo apt-get update
+*(X) sudo apt-get upgrade
 
 
 
@@ -38,13 +36,17 @@ If you don't want to create an isolated development environment:
 (X) sudo apt-get install python-setuptools
 
 
+(X) sudo apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
+(X) sudo apt-get install mysql-server mysql-client libmysqlclient-dev
+
+
 (X) sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
 (X) sudo apt-get install build-essential python-dev libxml2-dev libxslt1-dev
 (X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
 
  
 
-(X) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
+(?) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
 
 
 
