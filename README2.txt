@@ -9,7 +9,7 @@ Furthermore, e-cidadania has been developed on python 2.7
 
 *(X) apt-get update
 *(X) apt-get upgrade
-*(X) apt-get install python-setuptools
+
 
 
 Installation
@@ -27,9 +27,8 @@ If you don't want to create an isolated development environment:
   
 [PreRequisites]
 
-(?) sudo easy_install pip
+(?) sudo apt-get install python-pip
 (?) sudo pip install MySQL-Python
-(?) sudo pip install -U setuptools
 
 (X) sudo apt-get install git-core
 (X) sudo apt-get install supervisor
