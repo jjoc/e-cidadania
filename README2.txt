@@ -27,12 +27,10 @@ If you don't want to create an isolated development environment:
   
 [PreRequisites]
 
-(?) sudo apt-get install python-pip
-(?) sudo pip install MySQL-Python
 
 (X) sudo apt-get install git-core
 (X) sudo apt-get install supervisor
-(X) sudo apt-get install python-setuptools
+(X) sudo apt-get install python-setuptools python-pip
 
 
 (X) sudo apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
