@@ -34,8 +34,6 @@ Installation
 [PreRequisites]
 
 (X) sudo easy_install pip
-(X) sudo pip install -U setuptools
-
 (X) sudo apt-get install git-core
 (X) sudo apt-get install supervisor
 (X) sudo apt-get install python-setuptools
