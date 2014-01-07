@@ -9,6 +9,8 @@ Furthermore, e-cidadania has been developed on python 2.7
 
 *(X) apt-get update
 *(X) apt-get upgrade
+*(X) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
+ 
 
 
 
@@ -41,9 +43,6 @@ If you don't want to create an isolated development environment:
 (X) sudo apt-get install build-essential python-dev libxml2-dev libxslt1-dev
 (X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
 
- 
-
-(?) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
 
 
 
