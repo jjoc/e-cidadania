@@ -173,8 +173,8 @@ Development and bugtracking is done through `code.ecidadania.org http://code.eci
 
  * `Design concepts http://code.ecidadania.org/wiki/DesignConcepts _ design concepts, this are the guides to follow when developing.
  * `Releases http://code.ecidadania.org/wiki/Releases _ version roadmap. This is where we stablish the features, release dates and other things of every version.
-
-Collaborate
+ 
+![](http://kclocalmarketing.com/wp-content/uploads/2010/12/Collaborate.png) Collaborate
 -----------
 
 * **Developing** You can take the last code from the repository and experiment with it. When you're done, you can send us a "Merge request". Please check the `How To Contribute http://code.ecidadania.org/wiki/HowToContribute _ page.
