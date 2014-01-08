@@ -43,6 +43,16 @@
     (X) sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
     (X) sudo apt-get install build-essential python-dev libxml2-dev libxslt1-dev
     (X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
+    
+    
+
+**[Esenciales | Essentials]**
+
+    (X) sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
+    (X) sudo apt-get install build-essential libxml2-dev libxslt1-dev libpq-dev libssl-dev
+    (X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libxslt-dev
+
+
 
 ![](http://iconza.com/download/164/32x32/2a15d9/workflow.png) **[OptionalDevs]**
 
@@ -87,13 +97,6 @@
 
     (X) sudo aptitude show python-imaging
     (X) sudo aptitude install python-pythonmagick python-markdown python-textile python-docutils
-
-**[Esenciales | Essentials]**
-
-    (X) sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
-    (X) sudo apt-get install build-essential libxml2-dev libxslt1-dev libpq-dev libssl-dev
-    (X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libxslt-dev
-
 
 
 
