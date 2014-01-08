@@ -2,18 +2,16 @@
 
     Synapse Constructors 4A e-Cidadania's Clean Deployements
 
-![](http://i.imgur.com/BeE14Bl.png)[e-cidadania]
-![](http://i.imgur.com/5ldxDJl.png)[getopinionated]
+![](http://i.imgur.com/BeE14Bl.png)
+![](http://i.imgur.com/5ldxDJl.png)
 [![CI Build Status](https://secure.travis-ci.org/intridea/omniauth.png?branch=master)][travis]
 [![Dependency Status](https://gemnasium.com/intridea/omniauth.png?travis)][gemnasium]
-[![Code Climate](https://codeclimate.com/github/intridea/omniauth.png)][codeclimate]
 [![Coverage Status](https://coveralls.io/repos/intridea/omniauth/badge.png?branch=master)][coveralls]
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/intridea/omniauth/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 [gem]: https://rubygems.org/gems/omniauth
 [travis]: http://travis-ci.org/intridea/omniauth
 [gemnasium]: https://gemnasium.com/intridea/omniauth
-[codeclimate]: https://codeclimate.com/github/intridea/omniauth
 [coveralls]: https://coveralls.io/r/intridea/omniauth
 
 
