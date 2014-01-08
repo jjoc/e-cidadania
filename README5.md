@@ -41,6 +41,48 @@
     (X) git clone https://github.com/jjoc/e-cidadania
     (X) ln -s "/home/citizen/deploy/e-cidadania/src/e_cidadania/settings" config
 
+
+**[MySQL Install & Status]**
+
+    (X) sudo apt-get install python-mysqldb mysql-python
+    (i) sudo netstat -tap | grep mysql (Data::Running...?:)
+    (i) sudo service mysql start|stop|restart
+    
+**[Others Comprobations]**
+
+
+    (i) sudo service uwsgi restart (Data::Running...?:)
+    (i) sudo service nginx restart (Data::Running...?:)
+    
+**[IF "errors" NGINX]**
+
+
+    (X) sudo fuser -k 80/tcp 
+    (X) sudo /etc/init.d/nginx restart
+
+
+
+**[OptionalDevs :: htop|aptitude]**
+
+    (X) sudo apt-get install htop
+    (X) sudo apt-get install aptitude
+
+
+
+**[OPTional Aptitude]**
+
+    (X) sudo aptitude show python-imaging
+    (X) sudo aptitude install python-pythonmagick python-markdown python-textile python-docutils
+
+**[Esenciales | Essentials]**
+
+    (X) sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
+    (X) sudo apt-get install build-essential libxml2-dev libxslt1-dev libpq-dev libssl-dev
+    (X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libxslt-dev
+
+
+
+
 **[INSTALLATION]**
 
     (X) sudo apt-get update
