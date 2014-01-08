@@ -167,7 +167,8 @@ Development and bugtracking is done through `code.ecidadania.org http://code.eci
  * `Social networks http://code.ecidadania.org/wiki/SocialNetworks _ where e-cidadania present.
  * `Website http://ecidadania.org _ e-cidadania official website.
  * `IRC channels http://webchat.freenode.net _ #ecidadania-dev and #ecidadania for e-cidadania.
-
+ * 
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo_wikipedia_birrete.png/120px-Logo_wikipedia_birrete.png) 
 Useful information
 ------------------
 
