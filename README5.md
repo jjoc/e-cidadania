@@ -2,8 +2,8 @@
 
     Synapse Constructors 4A e-Cidadania's Clean Deployements
 
-![](http://i.imgur.com/BeE14Bl.png)
-![](http://i.imgur.com/5ldxDJl.png)
+[![](http://i.imgur.com/BeE14Bl.png)]
+[![](http://i.imgur.com/5ldxDJl.png)]
 [![CI Build Status](https://secure.travis-ci.org/intridea/omniauth.png?branch=master)][travis]
 [![Dependency Status](https://gemnasium.com/intridea/omniauth.png?travis)][gemnasium]
 [![Code Climate](https://codeclimate.com/github/intridea/omniauth.png)][codeclimate]
