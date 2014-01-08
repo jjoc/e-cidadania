@@ -59,6 +59,10 @@ Installation
 *************************************************************************
 
 
+[OR:: GUnicorn]
+(?) sudo easy_install -U gunicorn
+
+
 
 [MySQL Status]
 
