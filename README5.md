@@ -102,6 +102,13 @@
     (X) sudo apt-get update
     (X) sudo apt-get upgrade
     (X) sudo pip install -r requirements.txt
+    
+**[FIRSs DEPLOYEMENTs]**
+
+    (?) sudo python manage.py
+    (?) sudo python *db/sinc/dump*
+    (?) sudo pythonn *OTHERS DEPLOYs*
+
 
 **[CONFIGURATION & STARTup's]**
 
