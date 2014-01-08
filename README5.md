@@ -1,6 +1,16 @@
 ![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](https://secure.gravatar.com/avatar/c3513d5274ea954547dedfeefd88df34?s=130)
 
     Synapse Constructors 4A e-Cidadania's OneClick Deployement
+    .. image:: https://badge.fury.io/gh/cidadania%2Fe-cidadania.png
+    :target: http://badge.fury.io/gh/cidadania%2Fe-cidadania
+.. image:: http://i.imgur.com/BeE14Bl.png
+    :target: http://python.org
+.. image:: http://i.imgur.com/5ldxDJl.png
+    :target: http://djangoproject.com
+
+[![Build Status](https://travis-ci.org/node-inspector/node-inspector.png?branch=master)](https://travis-ci.org/node-inspector/node-inspector)
+[![Dependency Status](https://gemnasium.com/node-inspector/node-inspector.png)](https://gemnasium.com/node-inspector/node-inspector)
+[![NPM version](https://badge.fury.io/js/node-inspector.png)](http://badge.fury.io/js/node-inspector)
 
 ![](http://doc.ubuntu-es.org/images/a/ae/Oil-logo-ubuntu.png)**Installing dependencies in OS Ubuntu 12.04 (32b)**
 
