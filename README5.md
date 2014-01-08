@@ -1,4 +1,4 @@
-![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](https://secure.gravatar.com/avatar/c3513d5274ea954547dedfeefd88df34?s=130) ![](<object width="560" height="315"><param name="movie" value="//www.youtube.com/v/kbRd_hjWCGc?hl=en_US&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/kbRd_hjWCGc?hl=en_US&amp;version=3" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>) 
+![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](https://secure.gravatar.com/avatar/c3513d5274ea954547dedfeefd88df34?s=130) ![](http://www.youtube.com/watch?v=kbRd_hjWCGc) 
 
 
     Synapse Constructors 4A e-Cidadania's OneClick Deployement
