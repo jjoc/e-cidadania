@@ -15,6 +15,7 @@
 [coveralls]: https://coveralls.io/r/intridea/omniauth
 
 
+
 ![](http://doc.ubuntu-es.org/images/a/ae/Oil-logo-ubuntu.png)**Installing dependencies in OS Ubuntu 12.04 (32b)**
 
 
