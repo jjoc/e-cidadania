@@ -159,7 +159,7 @@
 **We need developers! If you want to join us, send an email to info@ecidadania.org**
 
 Development and bugtracking is done through `code.ecidadania.org http://code.ecidadania.org
-![](http://iconza.com/download/164/32x32/2a15d9/workflow.png)Getting help
+![](http://aulavirtual.uv.es/global/HELP/images/help.png)Getting help
 ------------
 
  * `Documentation http://code.ecidadania.org/wiki/Documentation _ e-cidadania documentation.
