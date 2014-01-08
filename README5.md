@@ -9,7 +9,7 @@
     *(X) apt-get upgrade
     *(X) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
 
-**[User Security]**
+![](http://icons.iconarchive.com/icons/milosz-wlazlo/boomy/32/user-lock-icon.png) **[User Security]**
 
     (X) adduser <userName>
     (X) adduser <userName> sudo
