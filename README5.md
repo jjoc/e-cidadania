@@ -1,4 +1,5 @@
 ![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](https://secure.gravatar.com/avatar/c3513d5274ea954547dedfeefd88df34?s=130) 
+
 Synapse Constructors 4A e-Cidadania's Clean Deployements
 
 ![](http://doc.ubuntu-es.org/images/a/ae/Oil-logo-ubuntu.png)**Installing dependencies in OS Ubuntu 12.04 (32b)**
