@@ -18,7 +18,7 @@
         <userName> ALL=(ALL:ALL) ALL
 
 
-**[PreRequisites]**
+![](http://wiki.team-mediaportal.com/@api/deki/files/1523/=alert_icon.png) **[PreRequisites]**
 
 
     (X) sudo apt-get install git-core
