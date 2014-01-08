@@ -1,9 +1,21 @@
 ![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](https://secure.gravatar.com/avatar/c3513d5274ea954547dedfeefd88df34?s=130)
 
-    Synapse Constructors 4A e-Cidadania's OneClick Deployement
-[![Build Status](https://travis-ci.org/node-inspector/node-inspector.png?branch=master)](https://travis-ci.org/node-inspector/node-inspector)
-[![Dependency Status](https://gemnasium.com/node-inspector/node-inspector.png)](https://gemnasium.com/node-inspector/node-inspector)
-[![NPM version](https://badge.fury.io/js/node-inspector.png)](http://badge.fury.io/js/node-inspector)
+    Synapse Constructors 4A e-Cidadania's Clean Deployements
+
+![](http://i.imgur.com/BeE14Bl.png)
+![](http://i.imgur.com/5ldxDJl.png)
+[![CI Build Status](https://secure.travis-ci.org/intridea/omniauth.png?branch=master)][travis]
+[![Dependency Status](https://gemnasium.com/intridea/omniauth.png?travis)][gemnasium]
+[![Code Climate](https://codeclimate.com/github/intridea/omniauth.png)][codeclimate]
+[![Coverage Status](https://coveralls.io/repos/intridea/omniauth/badge.png?branch=master)][coveralls]
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/intridea/omniauth/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+[gem]: https://rubygems.org/gems/omniauth
+[travis]: http://travis-ci.org/intridea/omniauth
+[gemnasium]: https://gemnasium.com/intridea/omniauth
+[codeclimate]: https://codeclimate.com/github/intridea/omniauth
+[coveralls]: https://coveralls.io/r/intridea/omniauth
+
 
 ![](http://doc.ubuntu-es.org/images/a/ae/Oil-logo-ubuntu.png)**Installing dependencies in OS Ubuntu 12.04 (32b)**
 
@@ -12,7 +24,7 @@
     *(X) apt-get upgrade
     *(X) wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | python
 
-![](http://icons.iconarchive.com/icons/milosz-wlazlo/boomy/32/user-lock-icon.png) **[User Security]**
+![](https://github-camo.global.ssl.fastly.net/c1cd2f9c78f091da772eebf11e3f53946c211442/687474703a2f2f69636f6e732e69636f6e617263686976652e636f6d2f69636f6e732f6d696c6f737a2d776c617a6c6f2f626f6f6d792f33322f757365722d6c6f636b2d69636f6e2e706e67) **[User Security]**
 
     (X) adduser <userName>
     (X) adduser <userName> sudo
@@ -33,7 +45,7 @@
     (X) sudo apt-get install build-essential python-dev libxml2-dev libxslt1-dev
     (X) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
 
-**[OptionalDevs]**
+![](http://iconza.com/download/164/32x32/2a15d9/workflow.png) **[OptionalDevs]**
 
     (?) sudo apt-get install aptitude
     (?) sudo apt-get install htop
