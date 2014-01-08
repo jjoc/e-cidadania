@@ -32,7 +32,7 @@
         <userName> ALL=(ALL:ALL) ALL
 
 
-![](http://wiki.team-mediaportal.com/@api/deki/files/1523/=alert_icon.png) **[PreRequisites]**
+![](http://wiki.team-mediaportal.com/@api/deki/files/1523/=alert_icon.png) **[PreRequisites]** 
 
 
     (X) sudo apt-get install git-core
@@ -160,7 +160,7 @@
 
 Development and bugtracking is done through `code.ecidadania.org http://code.ecidadania.org
 
-Getting help
+ ![](http://www.sicab.org/sicabtv/img/help.pngGetting)Getting help
 ------------
 
  * `Documentation http://code.ecidadania.org/wiki/Documentation _ e-cidadania documentation.
