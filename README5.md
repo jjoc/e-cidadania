@@ -129,8 +129,7 @@
 
 
 
-![](http://www.citizenship.es/eDNIwww/img/DROP5eDNIwww55GitHub.png)DROP5.0 eDNI.Voto.Click!
-------------
+![](http://www.citizenship.es/eDNIwww/img/DROP5eDNIwww55GitHub.png)**DROP5.0 eDNI.Voto.Click!**
 
 **[PreRequisitos Entorno C++]**
 
@@ -141,8 +140,8 @@
 *[Download C++ Source]*
 
     (X) sudo apt-get install unzip
-    (X) sudo wget http://zonatic.usatudni.es/es/descargas/func-download/139/c_vot_cod13.zip -C /c++DirSource
-    (X) sudo unzip c_vot_cod13.zip -d /c++DirEXE
+    (X) sudo wget http://www.citizenship.es/eDNIwww/cSource/c_vot_cod13.zip -C /"c++DirSource"
+    (X) sudo unzip c_vot_cod13.zip -d /"c++DirEXE"
     
 *[StartING + www]*
 
