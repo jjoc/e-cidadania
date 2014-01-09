@@ -142,6 +142,7 @@
     (X) sudo apt-get install libccid libpcsclite1 pcscd pinentry-gtk2 pcsc-tools 
     (X) sudo apt-get install pcscd libccid libpcsclite-dev libssl-dev libreadline-dev 
     (X) sudo apt-get install autoconf automake build-essential docbook-xsl xsltproc libtool
+    (X) sudo apt-get install build-essential pkg-config autoconf automake docbook-xsl subversion pcscd libpcsclite-dev pcsc-tools libreadline6 libreadline-dev libopenct-dev openssl libssl-dev libtool libltdl-dev libccid libassuan libassuan-dev pinentry-gtk2 
 
     
 *[Download C++ Source]*
