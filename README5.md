@@ -135,7 +135,14 @@
 **[PreRequisitos Entorno C++]**
 
     (X) sudo apt-get install glade
+    (X) sudo wget  xampp-linux-X.X.X.tar.gz
     (X) sudo tar xvfz xampp-linux-X.X.X.tar.gz –C /opt 
+    
+*[Download C++ Source]*
+
+    (X) sudo apt-get install unzip
+    (X) sudo wget http://zonatic.usatudni.es/es/descargas/func-download/139/c_vot_cod13.zip -C /c++DirSource
+    (X) sudo unzip c_vot_cod13.zip -d /c++DirEXE
     
 *[StartING + www]*
 
