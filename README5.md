@@ -135,8 +135,8 @@
 **[PreRequisitos Entorno C++]**
 
     (X) sudo apt-get install glade
+    (X) sudo apt-get install libssl-dev
     (X) sudo apt-get install openssl g++
-    (X) sudo apt-get install libssl-dev openssl
     (X) sudo wget  xampp-linux-X.X.X.tar.gz
     (X) sudo tar xvfz xampp-linux-X.X.X.tar.gz –C /opt 
     (X) sudo apt-get install libccid libpcsclite1 pcscd pinentry-gtk2 pcsc-tools 
