@@ -199,7 +199,7 @@
 
 
 
-![](http://www.citizenship.es/eDNIwww/img/GreenButtonDeveloper44.png) **We need developers! If you want to join us, send an email to info@ecidadania.org**
+![](http://www.citizenship.es/eDNIwww/img/Developers55.png) **We need developers! If you want to join us, send an email to info@ecidadania.org**
 
 Development and bugtracking is done through `code.ecidadania.org http://code.ecidadania.org
 ![](http://aulavirtual.uv.es/global/HELP/images/help.png)Getting help
