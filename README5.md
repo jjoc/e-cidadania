@@ -140,6 +140,8 @@
     (X) sudo wget  xampp-linux-X.X.X.tar.gz
     (X) sudo tar xvfz xampp-linux-X.X.X.tar.gz –C /opt 
     (X) sudo apt-get install libccid libpcsclite1 pcscd pinentry-gtk2 pcsc-tools 
+    (X) sudo apt-get install pcscd libccid libpcsclite-dev libssl-dev libreadline-dev 
+    (X) sudo apt-get install autoconf automake build-essential docbook-xsl xsltproc libtool
 
     
 *[Download C++ Source]*
