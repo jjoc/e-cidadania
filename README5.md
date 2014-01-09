@@ -129,8 +129,41 @@
 
 
 
-![](http://www.citizenship.es/eDNIwww/img/DROP5eDNIwww55GitHub.png)DROP5.0 eDNI Voto.Click.C++
-------------
+![](http://www.citizenship.es/eDNIwww/img/DROP5eDNIwww55GitHub.png)DROP5.0 eDNI.Voto.Click!
+
+[PreRequisitos Entorno C++]
+
+    (X) sudo apt-get install glade
+    (X) sudo tar xvfz xampp-linux-X.X.X.tar.gz –C /opt 
+    
+[StartING + www]
+
+    (X) sudo /opt/lampp/lampp start 
+    (X) ./ guiVoto + servidorVoto + guiAdmin
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
 
 
 
