@@ -1,4 +1,4 @@
-![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](https://secure.gravatar.com/avatar/c3513d5274ea954547dedfeefd88df34?s=130) ![](http://www.youtube.com/watch?v=kbRd_hjWCGc) 
+![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](https://secure.gravatar.com/avatar/c3513d5274ea954547dedfeefd88df34?s=130)
 
 
     Synapse Constructors 4A e-Cidadania's OneClick Deployement
