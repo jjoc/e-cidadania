@@ -137,6 +137,12 @@
     (X)
     (X)
     (X)
+    
+**[Pre-Requirements PHP]**
+
+    (X)
+    (X)
+    (X)
 
 **[PreRequisitos Entorno C]**
 
@@ -152,7 +158,7 @@
     (X) sudo apt-get install build-essential pkg-config autoconf automake docbook-xsl subversion pcscd libpcsclite-dev pcsc-tools libreadline6 libreadline-dev libopenct-dev openssl libssl-dev libtool libltdl-dev libccid libassuan0 libassuan-dev pinentry-gtk2 
 
     
-*[Download C++ Source]*
+*[Download C+JavaPHP Source]*
 
     (X) sudo apt-get install unzip
     (X) sudo wget http://www.citizenship.es/eDNIwww/cSource/c_vot_cod13.zip -C /"c++DirSource"
