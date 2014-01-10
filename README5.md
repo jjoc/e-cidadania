@@ -132,7 +132,13 @@
 ![](http://www.citizenship.es/eDNIwww/img/DROP5eDNIwww55GitHub.png)eDNI.Voto.Click!
 ------------
 
-**[PreRequisitos Entorno C++]**
+**[Pre-Requirements Java]**
+
+    (X)
+    (X)
+    (X)
+
+**[PreRequisitos Entorno C]**
 
     (X) sudo apt-get install glade
     (X) sudo apt-get install libssl-dev
@@ -156,6 +162,10 @@
 
     (X) sudo /opt/lampp/lampp start 
     (X) ./ guiVoto + servidorVoto + guiAdmin
+    
+    
+
+
 
 .
 .
