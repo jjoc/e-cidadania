@@ -175,6 +175,46 @@
     (X) ./ guiVoto + servidorVoto + guiAdmin
     
     
+-----------------------------------------------------------
+#### How to build and install this eDNI-OSC package #######
+-----------------------------------------------------------
+
+**Prepare your system for build packages:**
+
+    (X) sudo apt-get update
+    (X) sudo apt-get install devscripts dpkg-dev fakeroot svn-buildpackage
+    (X) sudo apt-get build-dep opensc
+
+1. Get into your favorite release directory:
+    
+    (X) cd tags/xx.xx.xx/
+
+or, if you want the bleeding edge:
+cd trunk/
+
+2. Check and install new build dependences if they exist:
+    (X) sudo dpkg-checkbuilddeps
+    (X) sudo apt-get install (*...*)
+
+3. Get the current tarball for that release:
+    (X) svn-buildpackage -rfakeroot -us -uc -tc --svn-download-orig
+
+* If you use pbuild, do:
+    (X) svn-buildpackage --svn-builder="pdebuild --use-pdebuild-internal --buildresult `pwd`/../build-area"     
+    (X) --svn-download-orig
+
+4. Install it:
+    (X) sudo dpkg -i ../build-area/libopensc_*.deb ../build-area/opensc_*.deb 
+
+5. Install all unmet dependences:
+    (X) sudo apt-get -f install
+
+6. Consider to configure your application (internet browser, etc) to support OpenSC
+and install on it the needed certificates, if any.
+
+7. Enjoy! ;)
+    
+    
 
 
 
