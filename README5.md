@@ -132,6 +132,11 @@
 ![](http://www.citizenship.es/eDNIwww/img/DROP5eDNIwww55GitHub.png)eDNI.Voto.Click!
 ------------
 
+**[Recomendados]**
+
+    (X) sudo apt-get install libacr38u libccid libnss3-tools
+    (X) sudo apt-get --purge remove dh-autoreconf             (*as build-dependency)
+    
 **[Pre-Requirements Java]**
 
     (X)
