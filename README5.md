@@ -145,6 +145,8 @@
     
 **[Pre-Requirements PHP]**
 
+    (X) sudo apt-get install php5
+    (X) sudo apt-get install libapache2-mod-php5
     (X)
     (X)
     (X)
