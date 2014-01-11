@@ -134,7 +134,7 @@
 
 **[Recomendados]**
 
-    (X) sudo apt-get install libacr38u libccid libnss3-tools
+    (X) sudo apt-get install dnie-tool libacr38u libccid libnss3-tools
     (X) sudo apt-get --purge remove dh-autoreconf             (*as build-dependency)
     
 **[Pre-Requirements Java]**
