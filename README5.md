@@ -69,7 +69,8 @@
 
 **[MySQL Install & Status]**
 
-    (X) sudo apt-get install python-mysqldb mysql-python
+    (X) pip install MySQL-python
+    (X) sudo apt-get install python-mysqldb
     (i) sudo netstat -tap | grep mysql (Data::Running...?:)
     (i) sudo service mysql start|stop|restart
     
