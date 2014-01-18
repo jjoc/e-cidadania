@@ -20,7 +20,7 @@
 
 ![](http://wiki.team-mediaportal.com/@api/deki/files/1523/=alert_icon.png) **[PreRequisites]** 
 
-
+    (X) sudo yum update
     (X) sudo yum install git-core
     (X) sudo yum install easy_install
     (X) sudo easy_install supervisor
