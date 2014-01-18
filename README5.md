@@ -64,7 +64,7 @@
 
     ( ) sudo pip install virtualenv
     (X) git clone https://github.com/jjoc/e-cidadania
-    (X) ln -s "/home/citizen/deploy/e-cidadania/src/e_cidadania/settings" config
+    (X) ln -s "/home/citizen/e-cidadania/src/e_cidadania/settings" configTeaTime (or koffe;)
 
 
 **[MySQL Install & Status]**
