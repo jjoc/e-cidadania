@@ -16,6 +16,22 @@
 [coveralls]: https://coveralls.io/r/intridea/omniauth
 
 
+![](http://www.alvarogarciasolano.com/wp-content/uploads/2011/09/centos.png)**Installing dependencies in CentOS6.5(32b)**
+
+![](http://wiki.team-mediaportal.com/@api/deki/files/1523/=alert_icon.png) **[PreRequisites]** 
+
+
+    (X) sudo yum install git-core
+    (X) sudo yum install easy_install
+    (X) sudo easy_install supervisor
+    (X) sudo yum install python-setuptools python-pip
+    ( ) sudo apt-get install nginx nginx-full uwsgi uwsgi-plugin-python
+    ( ) sudo apt-get install mysql-server mysql-client libmysqlclient-dev
+    ( ) sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
+    ( ) sudo apt-get install build-essential python-dev libxml2-dev libxslt1-dev
+    ( ) sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
+
+
 
 ![](http://doc.ubuntu-es.org/images/a/ae/Oil-logo-ubuntu.png)**Installing dependencies in OS Ubuntu 12.04 (32b)**
 
